@@ -1,0 +1,12 @@
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\bin\Debug\net5.0\MakeWeBet.Data.deps.json
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\bin\Debug\net5.0\MakeWeBet.Data.dll
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\bin\Debug\net5.0\ref\MakeWeBet.Data.dll
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\bin\Debug\net5.0\MakeWeBet.Data.pdb
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\obj\Debug\net5.0\MakeWeBet.Data.csprojAssemblyReference.cache
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\obj\Debug\net5.0\MakeWeBet.Data.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\obj\Debug\net5.0\MakeWeBet.Data.AssemblyInfoInputs.cache
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\obj\Debug\net5.0\MakeWeBet.Data.AssemblyInfo.cs
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\obj\Debug\net5.0\MakeWeBet.Data.csproj.CoreCompileInputs.cache
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\obj\Debug\net5.0\MakeWeBet.Data.dll
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\obj\Debug\net5.0\ref\MakeWeBet.Data.dll
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\obj\Debug\net5.0\MakeWeBet.Data.pdb

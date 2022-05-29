@@ -1,0 +1,15 @@
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Business\bin\Release\net5.0\MakeWeBet.Business.deps.json
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Business\bin\Release\net5.0\MakeWeBet.Business.dll
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Business\bin\Release\net5.0\ref\MakeWeBet.Business.dll
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Business\bin\Release\net5.0\MakeWeBet.Business.pdb
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Business\bin\Release\net5.0\MakeWeBet.Data.dll
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Business\bin\Release\net5.0\MakeWeBet.Data.pdb
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Business\obj\Release\net5.0\MakeWeBet.Business.csprojAssemblyReference.cache
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Business\obj\Release\net5.0\MakeWeBet.Business.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Business\obj\Release\net5.0\MakeWeBet.Business.AssemblyInfoInputs.cache
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Business\obj\Release\net5.0\MakeWeBet.Business.AssemblyInfo.cs
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Business\obj\Release\net5.0\MakeWeBet.Business.csproj.CoreCompileInputs.cache
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Business\obj\Release\net5.0\MakeWeBet.Business.csproj.CopyComplete
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Business\obj\Release\net5.0\MakeWeBet.Business.dll
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Business\obj\Release\net5.0\ref\MakeWeBet.Business.dll
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Business\obj\Release\net5.0\MakeWeBet.Business.pdb
