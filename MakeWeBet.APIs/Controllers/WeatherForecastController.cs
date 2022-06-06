@@ -1,15 +1,18 @@
 ﻿using MakeWeBet.Data.Models.ExceptionModels;
+using MakeWeBet.Data.Models.Response;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 
 namespace MakeWeBet.APIs.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Produces("application/json")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -24,8 +27,16 @@ namespace MakeWeBet.APIs.Controllers
             _logger = logger;
         }
 
+
+        /// <summary>
+        /// description here
+        /// </summary>
+        /// <param name="currencyCode"></param>
+        /// <returns></returns>
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        [ProducesResponseType(typeof(ApiResponseModel<IEnumerable<WeatherForecast>>), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ErrorDetails), (int)HttpStatusCode.BadRequest)]
+        public IEnumerable<WeatherForecast> Get(string currencyCode)
         {
             //throw new NotFoundException("Error not found");
             var rng = new Random();
