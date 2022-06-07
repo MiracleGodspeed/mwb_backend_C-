@@ -11,4 +11,10 @@ namespace MakeWeBet.Data.Enums
         Yes = 1,
         No
     }
+
+    public enum BetPairingStatus
+    {
+        Paired = 1,
+        NotPaired
+    }
 }

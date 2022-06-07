@@ -10,3 +10,6 @@ Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\obj\Release\net5.0\Mak
 Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\obj\Release\net5.0\MakeWeBet.Data.dll
 Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\obj\Release\net5.0\ref\MakeWeBet.Data.dll
 Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\obj\Release\net5.0\MakeWeBet.Data.pdb
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\bin\Release\net5.0\MakeWeBet.Data.runtimeconfig.json
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\bin\Release\net5.0\MakeWeBet.Data.runtimeconfig.dev.json
+Z:\Users\godspeedmiracle\Miracle\MakeWeBet\MakeWeBet.Data\obj\Release\net5.0\MakeWeBet.Data.genruntimeconfig.cache
