@@ -1,7 +1,15 @@
 ﻿using MakeWeBet.Business.Interface;
+using MakeWeBet.Business.Services.BetService.Interface;
+using MakeWeBet.Business.Services.BetService.Service;
 using MakeWeBet.Business.Services.IdentityService.Interface;
 using MakeWeBet.Business.Services.IdentityService.Services;
 using MakeWeBet.Business.Services.Shared;
+using MakeWeBet.Business.Services.Shared.Interface;
+using MakeWeBet.Business.Services.Shared.Service;
+using MakeWeBet.Business.Services.UnitOfWork;
+using MakeWeBet.Business.Services.UserAccountService.Interface;
+using MakeWeBet.Business.Services.UserAccountService.Service;
+using MakeWeBet.Data.Models;
 using MakeWeBet.Data.Models.Context;
 using MakeWeBet.Data.Models.IdentityModel;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -45,20 +53,20 @@ namespace MakeWeBet.Business.Infrastructure.StartupExtension
                 };
             });
         }
-        public static IServiceCollection ConfigureDatabaseConnection(this IServiceCollection services, string connectionString)
-        {
-            services.AddDbContext<IdentityDatabaseContext>(options =>
-               options.UseSqlServer(
-                   connectionString, b => b.MigrationsAssembly("MakeWeBet")));
+        //public static IServiceCollection ConfigureDatabaseConnection(this IServiceCollection services, string connectionString)
+        //{
+        //    services.AddDbContext<IdentityDatabaseContext>(options =>
+        //       options.UseSqlServer(
+        //           connectionString, b => b.MigrationsAssembly("MakeWeBet.Data")));
 
-            services.AddDbContext<MakeWeBetContext>(options =>
-            {
-                options.UseSqlServer(connectionString, b => b.MigrationsAssembly("MakeWeBet"))
-                .ConfigureWarnings(c => c.Log(CoreEventId.DetachedLazyLoadingWarning, CoreEventId.LazyLoadOnDisposedContextWarning));
+        //    services.AddDbContext<MakeWeBetContext>(options =>
+        //    {
+        //        options.UseSqlServer(connectionString, b => b.MigrationsAssembly("MakeWeBet.Data"))
+        //        .ConfigureWarnings(c => c.Log(CoreEventId.DetachedLazyLoadingWarning, CoreEventId.LazyLoadOnDisposedContextWarning));
 
-            });
-            return services;
-        }
+        //    });
+        //    return services;
+        //}
         public static void ConfigureEmailService(this IServiceCollection services, IConfiguration Configuration)
         {
             services
@@ -125,6 +133,26 @@ namespace MakeWeBet.Business.Infrastructure.StartupExtension
             //Identity Services
             services.TryAddScoped<UserManager<ApplicationUser>>();
             services.AddTransient<IIdentityUserService, IdentityUserService>();
+            services.AddTransient<IUserAccountService, UserAccountService>();
+            services.AddTransient<IBetCategoryService, BetCategoryService>();
+
+            //Utility Sefvices
+            services.AddTransient<IServiceFactory, ServiceFactory>();
+
+
+
+
+            //Database Services
+            services.AddScoped<IUnitOfWork, UnitOfWork<MakeWeBetContext>>();
+
+
+            services.AddAutoMapper(opt =>
+            {
+                opt.AddProfile<AutoMapperProfile>();
+                opt.AllowNullCollections = true;
+                //opt.ValidateInlineMaps = false;
+            });
+
         }
 
 

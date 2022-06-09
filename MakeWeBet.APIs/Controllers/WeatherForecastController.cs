@@ -28,11 +28,7 @@ namespace MakeWeBet.APIs.Controllers
         }
 
 
-        /// <summary>
-        /// description here
-        /// </summary>
-        /// <param name="currencyCode"></param>
-        /// <returns></returns>
+      
         [HttpGet]
         [ProducesResponseType(typeof(ApiResponseModel<IEnumerable<WeatherForecast>>), (int)HttpStatusCode.OK)]
         [ProducesResponseType(typeof(ErrorDetails), (int)HttpStatusCode.BadRequest)]

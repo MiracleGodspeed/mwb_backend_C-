@@ -15,9 +15,11 @@ namespace MakeWeBet.Data.Models.Entity
         public SystemRole Role { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string Username { get; set; }
+        public string ImageURL { get; set; }
         public string IdentityUserId { get; set; }
         public string ClientIpAddress { get; set; }
-        public Guid CurrencyId { get; set; }
+        public Guid? CurrencyId { get; set; }
         [ForeignKey("CurrencyId")]
         public virtual Currency Currency { get; set; }
     }
