@@ -13,6 +13,7 @@ namespace MakeWeBet.Business.Infrastructure.StartupExtension
 {
     public static class SwaggerConfiguration
     {
+     
         public static IServiceCollection RegisterAndConfigureSwaggerAuthorizationOptions(this IServiceCollection services)
         {
             services.AddSwaggerGen(s =>

@@ -9,6 +9,14 @@ namespace MakeWeBet.Data.Enums
     public enum EntityStatus
     {
         ACTIVE = 1,
-        INACTIVE = 2,
+        INACTIVE,
+    }
+
+
+    public enum FollowershipStatus
+    {
+        FOLLOWING = 1,
+        UNFOLLOWED,
+        BLOCKED
     }
 }

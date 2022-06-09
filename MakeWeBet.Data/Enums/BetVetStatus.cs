@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace MakeWeBet.Data.Enums
 {
-    public enum VettingStatus
+    public enum BetReviewStatus
     {
         InReview = 1,
         Approved,
         Declined
+    }
+
+    public enum BetValidityStatus
+    {
+        Pending = 1,
+        Valid,
+        Invalid
     }
 }
